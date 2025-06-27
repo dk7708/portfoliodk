@@ -38,6 +38,9 @@ body {
   font-size: 1.8rem;
   font-weight: bold;
   color: #fff;
+  white-space: nowrap;       
+  overflow: hidden;           
+  text-overflow: ellipsis;    
 }
 .nav-links a {
   color: #fff;
@@ -374,6 +377,11 @@ body {
     clip-path: none;
     padding: 5rem 1rem 3rem;
   }
+  @media (max-width: 480px) {
+  .logo {
+    font-size: 1.2rem;        
+  }
+}
   .hero .left,
   .hero .right {
     max-width: 100%;
